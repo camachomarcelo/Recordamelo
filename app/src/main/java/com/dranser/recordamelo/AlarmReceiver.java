@@ -29,7 +29,7 @@ public class AlarmReceiver extends BroadcastReceiver{
         //Preparar notificación
         Notification.Builder builder = new Notification.Builder(context);
         builder.setSmallIcon(android.R.drawable.ic_dialog_info)
-                .setContentTitle("Recordatorio")
+                .setContentTitle("Recordatorio:")
                 .setContentText(mensaje)
                 .setWhen(System.currentTimeMillis())
                 .setAutoCancel(true)
